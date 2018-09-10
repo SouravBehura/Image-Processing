@@ -1,1 +1,5 @@
-
+# Line-Following-using-IP
+# Project on a robot following a black line over a white background using image processing
+In this project I am using python 3.6, opencv, node MCU, L293D moter driver, a smartphone and two 200 rpm motors. 
+In this project I have made a small robot follow a ball. I have used image processing in OpenCV in python 3.6 to keep track of a black
+line in white background and then follow it. I am taking the image feed from the bot through my smartphone placed on it and using IPwedcam app I am transfering the image from it to my laptop wirelessly and process it in python 3.6 in using opencv and again returning a pid value to the bot for it's left and right movement. I am using a node MCU to control my bot and these pid values are passed to it through wifi also wirelessly through TCP. So no actual image processing is done on bord. I am currently working on its modification to make a self driving car and also I am working to process image faster by processing it parallely using CUDA to increase frame rate.
