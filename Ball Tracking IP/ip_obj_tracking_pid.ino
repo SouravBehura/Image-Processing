@@ -14,7 +14,7 @@ void setup() {
 
   // We start by connecting to a WiFi network
   WiFi.mode(WIFI_STA);
-  WiFiMulti.addAP("ROBOTICS SOCIETY", "vssutrobotix");
+  WiFiMulti.addAP("ROBOTICS SOCIETY", "****");
 
   Serial.println();
   Serial.println();
